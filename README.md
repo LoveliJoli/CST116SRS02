@@ -3,7 +3,6 @@ I/O Stream Formatting
 
 
 Class ID: Ferrothorn
-
 SRS ID: CST116SRS02
 
 Unresolved Issues: 
@@ -30,10 +29,10 @@ Midwest: $ 12,431.33
    East: $127,690.50  
   South: $  9,200.00  
 
-Right align the labels and colons and align the $’s using i/o manipulators. Place value punctuation according to the U.S. convention of 3 digits per group separated by commas with decimal point for dollar/cent separator. Show 2 digits to the right of the decimal point even when there are not fractions of a dollar in the data.  
+Right align the labels and colons and align the $’s using i/o manipulators. Place value punctuation according to the U.S. convention of 3 digits per group separated by commas with decimal point for dollar/cent separator. Show 2 digits to the right of the decimal point even when there are not fractions of a dollar in the data. Align the values as expected for a column of numbers (See Figure 5.4.1 p114)
 
-Part 1:  
+Part 1:
 
-Create a project named “Input”.  
+Create a project named “Input”.
 
-Read user input from std::cin with a prompt for a number "Enter a number: ". Display the number back to std::cout with the format in scientific notation. 
+Read user input from std::cin with a prompt for a number "Enter a number: ". Display the number back to std::cout with the format in scientific notation.
